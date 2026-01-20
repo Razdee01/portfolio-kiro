@@ -10,7 +10,7 @@ interface HeroProps {
 const Hero: React.FC<HeroProps> = ({ onAnimationComplete }) => {
   const heroRef = useRef<HTMLElement>(null);
   const prefersReducedMotion = useReducedMotion();
-  const {  isDownloading, error } = useResumeDownload();
+  const { isDownloading, error } = useResumeDownload();
   const [showError, setShowError] = useState(false);
 
   const handleResumeDownload = () => {
@@ -288,7 +288,7 @@ const Hero: React.FC<HeroProps> = ({ onAnimationComplete }) => {
                 aria-label="Professional profile photo of Walid Rahman Rajdee"
               >
                 <img
-                  src="/assets/profile.png"
+                  src="/assets/profile.jpg"
                   alt="Walid Rahman Rajdee - MERN Stack Developer"
                   className="w-full h-full object-cover rounded-full bg-white dark:bg-gray-900"
                 />
