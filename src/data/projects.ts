@@ -26,7 +26,7 @@ export const projects: Project[] = [
       'Add real-time notifications for contest winners using Socket.io',
       'Implement an automated refund system for rejected contests',
     ],
-    liveUrl: 'https://strong-axolotl-c79cc6.netlify.app/',
+    liveUrl: 'https://assignment-11-client-eta.vercel.app/',
     githubUrl: 'https://github.com/Razdee01/assignment-11-client.git',
   },
   {

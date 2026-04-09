@@ -25,7 +25,7 @@ const h = [
         'Add real-time notifications for contest winners using Socket.io',
         'Implement an automated refund system for rejected contests',
       ],
-      liveUrl: 'https://strong-axolotl-c79cc6.netlify.app/',
+      liveUrl: 'https://assignment-11-client-eta.vercel.app/',
       githubUrl: 'https://github.com/Razdee01/assignment-11-client.git',
     },
     {
@@ -510,19 +510,17 @@ const h = [
                             e.jsxs('div', {
                               className: 'flex flex-wrap gap-2 mb-4',
                               children: [
-                                t.techStack
-                                  .slice(0, 3)
-                                  .map((b, p) =>
-                                    e.jsx(
-                                      'span',
-                                      {
-                                        className:
-                                          'px-2 py-1 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-xs rounded',
-                                        children: b,
-                                      },
-                                      p
-                                    )
-                                  ),
+                                t.techStack.slice(0, 3).map((b, p) =>
+                                  e.jsx(
+                                    'span',
+                                    {
+                                      className:
+                                        'px-2 py-1 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-xs rounded',
+                                      children: b,
+                                    },
+                                    p
+                                  )
+                                ),
                                 t.techStack.length > 3 &&
                                   e.jsxs('span', {
                                     className:
